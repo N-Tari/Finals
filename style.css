@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: grey;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+
+/* HEADER */
+
+
+header {
+    background-color: #74C69D;
+    padding-bottom: 83px;
+}
+
+
+.header_top {
+    padding-top: 35px;
+    max-width: 1175px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header_menu {
+    display: flex;
+    gap: 30px;
+}
+
+
+.header_bottom {
+    max-width: 1180.28px;
+    display: flex;
+    gap: 120px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.header_text_div {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    max-width: 418px;
+    gap: 15px;
+}
+
+.header_text_div h2 {
+    font-size: 40px;
+}
+
+.header_text_div h3 {
+    font-size: 16px;
+}
+
+.header_text_div p {
+    color: #FFFFFFBF;
+    font-size: 16px;
+}
+
+.header_img_div {
+    max-width: 644.28px;
+}
+
+.header_img_div img {
+    max-width: 100%;
+}  
+
+.header_top i {
+    display: none;
+    color: #fff;
+}
+
+
+
+
+.header_bottom div button {
+    margin-top: 30px;
+    padding: 15px 50px;
+    background-color: #fff;
+    color: #000;
+}
+
+/* SECTION 1 */
+
+.s1_container {
+    max-width: 1158.98px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 75px;
+}
+
+.s1_text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.s1_text h3 {
+    font-size: 16px;
+    color: #74C69D;
+    letter-spacing: 5px;
+}
+
+.s1_text h2 {
+    font-size: 40px;
+}
+
+
+.s1_imgs {
+    display: flex;
+    gap: 68px;
+    margin: 55px 0;
+    max-width: 1158.98px;
+}
+
+
+/* SECTION 2 */
+
+.s2_container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 110px;
+}
+
+.s2_text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 470px;
+}
+
+.s2_text p {
+    color: #21252980;
+}
+
+.s2_text h3 {
+    font-family: "crimson text", serif;
+    font-size: 40px;
+}
+
+.s2_img {
+    max-width: 600px;
+}
+.s2_img img{
+    max-width: 100%;
+}
+
+
+/* SECTION 4 */
+
+.s4_container {
+    max-width: 1178px;
+    margin: 0 auto;
+    
+
+}
+
+.s4_text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.s4_text h2 {
+    font-size: 40px;
+}
+
+.s4_text h3 {
+    font-size: 16px;
+    color: #74C69D;
+    letter-spacing: 5px;
+}
+
+
+.s4_imgs {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.s4_img {
+    max-width: 252px;
+}
+
+.s4_img1 {
+    max-width: 279px;
+}
+
+
+.s4_imgs_text h2 {
+    margin-top: 19px;
+    margin-bottom: 17px;
+}
+
+.s4_container button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+/* FOOTER */
+
+
+footer {
+    background-color: #74C69D;
+    padding: 50px 0;
+    margin-top: 55px;
+}
+
+.footer_container {
+    max-width: 1175px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.LM {
+    padding: 15px 35px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Fonts */
+
+h2 {
+    font-family: "crimson text", serif;
+}
+h3 {
+    font-family: work-sans, sans-serif;
+}
+p {
+    font-family: work-sans, sans-serif;
+}
+
+button {
+    font-family: work-sans, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .header_menu {
+        display: none;
+    }
+    .header_top i {
+        display: block;
+    }
+
+    .header_bottom {
+        flex-direction: column-reverse;
+    }
+
+    .s1_imgs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s2_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .s2_container_reverse {
+        flex-direction: column-reverse;
+    }
+
+    .s4_imgs {
+        flex-direction: column;
+        align-items: center;
+    }
+}
