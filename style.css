@@ -313,6 +313,96 @@ footer {
 
 
 
+/* SERVICES */
+
+.services_header_text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.services_header_text h3 {
+    font-family: work-sans, sans-serif;
+    font-size: 16px;
+    color: #74C69D;
+    letter-spacing: 5px;
+}
+
+.services_header_text h2 {
+    font-family: crimson text, serif;
+    font-size: 40px;
+}
+
+
+.services_header_text p {
+    font-family: work-sans, sans-serif;
+    font-weight: 400;
+    line-height: 125%;
+    font-size: 20px;
+}
+
+
+.services_container {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    gap: 105px;
+    margin-bottom: 135px;
+}
+
+.service_card {
+    max-width: 340px;
+    text-align: center;
+}
+
+.service_card ul li {
+    display: flex;
+    margin-bottom: 11px;
+}
+
+
+.service_card ul li i {
+    color: #74C69D;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.service_card ul li p {
+    font-family: work-sans, sans-serif;
+    font-size: 15px;
+    color: #212529;
+}
+
+.service_card :first-child {
+    font-size: 15px;
+}
+
+.service_card :second-child {
+    margin-bottom: 10px;
+    color: #212529BF;
+    font-size: 15px;
+}
+
+.service_card ul {
+    margin-top: 45px;
+}
+
+.services_dol {
+    font-size: 40px;
+}
+
+.service_card button {
+    display: block;
+    padding: 15px 35px;
+    background-color: #000;
+    color: #fff;
+    font-family: work-sans, sans-serif;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
 
 
 
@@ -379,7 +469,19 @@ button {
         align-items: center;
     }
 
+    .footer_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
     .portfolio_img_div {
         flex-direction: column;
     }
+
+    .services_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
