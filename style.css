@@ -405,6 +405,78 @@ footer {
 
 
 
+/* Contact */
+
+.Contact_container {
+    max-width: 1180px;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.contact_text {
+    display: flex;
+    max-width: 411px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    margin-bottom: 67px;
+}
+
+.contact_text h2 {
+    font-family: crimson text, serif;
+    font-size: 40px;
+}
+
+.contact_text p {
+    font-family: work-sans, sans-serif;
+    font-size: 20px;
+}
+
+.Contact_form {
+    max-width: 575px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 385px
+}
+
+label {
+    font-family: work-sans, sans-serif;
+    font-size: 15px;
+    color: #212529BF;
+    margin-bottom: 21px;
+}
+input[type="text"], input[type="email"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 21px;
+}
+textarea {
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+
+
+.Contact_form form button {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.Contact_form form button:hover {
+    background-color: grey;
+}
+
+
+
+
+
+
+
 
 
 /* Fonts */
@@ -481,6 +553,11 @@ button {
 
     .services_container {
         flex-direction: column;
+        align-items: center;
+    }
+    
+    .Contact_container {
+        flex-direction: column-reverse;
         align-items: center;
     }
 
