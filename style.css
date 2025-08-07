@@ -549,6 +549,7 @@ button {
 
     .portfolio_img_div {
         flex-direction: column;
+        align-items: center;
     }
 
     .services_container {
